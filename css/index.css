@@ -136,6 +136,7 @@ html,
 body {
   font-family: 'Quattrocento Sans', sans-serif;
   color: #5E6164;
+  background-color: #fbfdff;
 }
 h1,
 h2,
@@ -151,7 +152,8 @@ h2 {
 h3 {
   font-size: 2.8rem;
 }
-p {
+p,
+a {
   font-size: 1.6rem;
   line-height: 1.4;
   color: black;
@@ -162,92 +164,104 @@ p {
   margin: 0 auto;
 }
 .navigation {
-  max-width: 1000px;
   width: 100%;
   margin: 0 auto;
   display: flex;
   align-items: center;
-  margin-top: 20px;
-  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  justify-content: space-around;
   margin-bottom: 20px;
+  background-color: #000000;
 }
 .navigation .logo {
   font-family: 'Courgette', cursive;
+  color: white;
+  font-size: 1.6rem;
 }
 .navigation a {
   padding-left: 20px;
   text-decoration: none;
   font-size: 1.6rem;
+  color: white;
+}
+.navigation a:hover {
+  color: #007bff;
+}
+.navigation .sign-up {
+  padding: 10px;
+  background-color: white;
+  color: black;
+  margin-left: 20px;
+  text-align: centre;
+  border-radius: 5px;
+}
+.navigation .sign-up:hover {
+  color: white;
+  background-color: #007bff;
+}
+footer {
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #000000;
+  height: 100px;
+}
+footer .icons {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 20px;
+  align-items: center;
+}
+footer .icons .icon-image {
+  width: 2%;
+}
+footer .icons img {
+  max-width: 100%;
+}
+footer p {
+  color: white;
+  text-align: center;
 }
 .home .main-heading {
-  margin-top: 20px;
+  margin-top: 40px;
   display: flex;
   align-items: center;
   width: 100%;
 }
 .home .main-heading h2 {
-  width: 80%;
+  width: 50%;
   text-align: center;
 }
 .home .main-heading p {
-  width: 80%;
+  width: 50%;
   text-align: center;
   margin-top: 20px;
 }
-.home .main-heading img {
+.home .main-heading .top-img {
+  width: 50%;
+}
+.home .main-heading .top-img img {
   border-radius: 20px;
-  width: 100%;
+  max-width: 100%;
+}
+.home .intro-content {
+  margin-top: 40px;
+}
+.home .intro-content p {
+  margin-top: 20px;
 }
 .home .middle-img {
-  margin-top: 20px;
+  margin-top: 40px;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
 }
 .home .middle-img img {
   max-width: 100%;
-}
-.home .top-content h3 {
-  margin-top: 20px;
-}
-.home .top-content .content {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  margin-top: 20px;
-}
-.home .top-content .content .right-text {
-  margin-left: 1rem;
-}
-.home .top-content .content .beach {
-  text-align: center;
-  padding-top: 140px;
-  width: 47%;
-  height: 300px;
-  background-image: url(/img/beach.jpg);
-}
-.home .top-content .content .abroad {
-  text-align: center;
-  padding-top: 140px;
-  width: 47%;
-  height: 300px;
-  margin-left: 60px;
-  background-image: url(/img/abroad-1.jpg);
-}
-.home .top-content .content .resort {
-  text-align: center;
-  padding-top: 140px;
-  width: 47%;
-  height: 300px;
-  background-image: url(/img/resort.jpg);
-}
-.home .top-content .content .camping {
-  text-align: center;
-  padding-top: 140px;
-  width: 47%;
-  height: 300px;
-  margin-left: 60px;
-  background-image: url(/img/camping-1.jpg);
 }
 .home .features {
   display: flex;
@@ -265,16 +279,20 @@ p {
 .home .features p {
   margin-top: 20px;
 }
-.home .icons {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  margin-top: 20px;
-  align-items: center;
+.home .sign-up-btn {
+  background-color: #007bff;
+  padding: 20px;
+  width: 30%;
+  margin: 0 auto;
+  border-radius: 5px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
 }
-.home .icons .icon-image {
-  width: 2%;
+.home .sign-up-btn a {
+  color: white;
 }
-.home .icons img {
-  max-width: 100%;
+.home .sign-up-btn:hover {
+  background-color: #000000;
+  color: #808080;
 }

@@ -157,12 +157,12 @@ p {
   color: black;
 }
 .container {
-  max-width: 800px;
+  max-width: 1000px;
   width: 100%;
   margin: 0 auto;
 }
 .navigation {
-  max-width: 800px;
+  max-width: 1000px;
   width: 100%;
   margin: 0 auto;
   display: flex;
@@ -197,4 +197,84 @@ p {
 .home .main-heading img {
   border-radius: 20px;
   width: 100%;
+}
+.home .middle-img {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.home .middle-img img {
+  max-width: 100%;
+}
+.home .top-content h3 {
+  margin-top: 20px;
+}
+.home .top-content .content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 20px;
+}
+.home .top-content .content .right-text {
+  margin-left: 1rem;
+}
+.home .top-content .content .beach {
+  text-align: center;
+  padding-top: 140px;
+  width: 47%;
+  height: 300px;
+  background-image: url(/img/beach.jpg);
+}
+.home .top-content .content .abroad {
+  text-align: center;
+  padding-top: 140px;
+  width: 47%;
+  height: 300px;
+  margin-left: 60px;
+  background-image: url(/img/abroad-1.jpg);
+}
+.home .top-content .content .resort {
+  text-align: center;
+  padding-top: 140px;
+  width: 47%;
+  height: 300px;
+  background-image: url(/img/resort.jpg);
+}
+.home .top-content .content .camping {
+  text-align: center;
+  padding-top: 140px;
+  width: 47%;
+  height: 300px;
+  margin-left: 60px;
+  background-image: url(/img/camping-1.jpg);
+}
+.home .features {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 20px;
+  align-items: center;
+}
+.home .features .features-img {
+  width: 50%;
+}
+.home .features .features-img img {
+  max-width: 100%;
+}
+.home .features p {
+  margin-top: 20px;
+}
+.home .icons {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 20px;
+  align-items: center;
+}
+.home .icons .icon-image {
+  width: 2%;
+}
+.home .icons img {
+  max-width: 100%;
 }

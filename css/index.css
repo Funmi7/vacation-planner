@@ -154,12 +154,47 @@ h3 {
 p {
   font-size: 1.6rem;
   line-height: 1.4;
+  color: black;
 }
 .container {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
 }
-.logo {
+.navigation {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.navigation .logo {
   font-family: 'Courgette', cursive;
+}
+.navigation a {
+  padding-left: 20px;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+.home .main-heading {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.home .main-heading h2 {
+  width: 80%;
+  text-align: center;
+}
+.home .main-heading p {
+  width: 80%;
+  text-align: center;
+  margin-top: 20px;
+}
+.home .main-heading img {
+  border-radius: 20px;
+  width: 100%;
 }

@@ -16,15 +16,15 @@
     }
 
     a {
-            padding-left: 20px;
-            text-decoration: none;
-            font-size: 1.6rem;
-            color: white;
+        padding-left: 20px;
+        text-decoration: none;
+        font-size: 1.6rem;
+        color: white;
 
-            &:hover {
-                color: #007bff;
+        &:hover {
+            color: #007bff;
 
-            }
+        }
     } 
     
     .sign-up {
@@ -39,6 +39,16 @@
         &:hover {
             color: white;
             background-color: #007bff;
+        }
+    }
+
+    @media @mobile  {
+        flex-direction: column;
+        justify-content: none;
+        padding-right: 5px;
+
+        .logo {
+            margin-bottom: 20px;
         }
     }
 }

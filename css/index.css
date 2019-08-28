@@ -142,7 +142,8 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+label {
   font-family: 'Bree Serif', serif;
   color: #23293B;
 }
@@ -157,6 +158,9 @@ a {
   font-size: 1.6rem;
   line-height: 1.4;
   color: black;
+}
+label {
+  font-size: 1.6rem;
 }
 .container {
   max-width: 1000px;
@@ -385,4 +389,10 @@ footer p {
   .home a {
     font-size: 1.4rem;
   }
+}
+.contact-header h2,
+.contact-header p {
+  color: white;
+  text-align: center;
+  width: 50%;
 }

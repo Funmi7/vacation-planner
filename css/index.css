@@ -185,7 +185,7 @@ label {
   font-size: 1.6rem;
 }
 .navigation a {
-  padding-left: 20px;
+  padding-left: 2rem;
   text-decoration: none;
   font-size: 1.6rem;
   color: white;
@@ -194,7 +194,7 @@ label {
   color: #007bff;
 }
 .navigation .sign-up {
-  padding: 10px;
+  padding: 1rem;
   background-color: white;
   color: black;
   margin-left: 20px;
@@ -213,6 +213,20 @@ label {
   }
   .navigation .logo {
     margin-bottom: 20px;
+  }
+  .navigation .nav-buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .navigation a {
+    padding: 1rem;
+    border-top: 1px solid darkgray;
+    text-align: center;
+  }
+  .navigation .sign-up {
+    margin-left: 0px;
+    padding: 1rem;
   }
 }
 .contact-header {
@@ -242,25 +256,13 @@ label {
   font-size: 1.6rem;
 }
 .contact-header .contact-nav a {
-  padding-left: 20px;
+  padding-left: 2rem;
   text-decoration: none;
   font-size: 1.6rem;
   color: white;
 }
 .contact-header .contact-nav a:hover {
   color: #007bff;
-}
-.contact-header .contact-nav .sign-up {
-  padding: 10px;
-  background-color: white;
-  color: black;
-  margin-left: 20px;
-  text-align: centre;
-  border-radius: 5px;
-}
-.contact-header .contact-nav .sign-up:hover {
-  color: white;
-  background-color: #007bff;
 }
 .contact-header .header-content {
   margin-top: 20px;
@@ -326,6 +328,24 @@ footer .icons a {
 footer p {
   color: grey;
   text-align: center;
+}
+@media (max-width: 500px) {
+  footer .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .footer-content .logo {
+    margin-bottom: 40px;
+  }
+  footer .footer-content h4 {
+    margin-top: 15px;
+  }
+  footer .footer-content li {
+    display: none;
+  }
+  footer .icons {
+    margin-top: 40px;
+  }
 }
 .home .main-heading {
   margin-top: 40px;
@@ -463,6 +483,7 @@ footer p {
   text-align: center;
 }
 .home .sign-up-btn a {
+  text-decoration: none;
   color: white;
 }
 .home .sign-up-btn:hover {

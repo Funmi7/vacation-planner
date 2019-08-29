@@ -16,6 +16,7 @@
             width: 50%;
             text-align: center;
             margin-top: 20px;
+            font-size: 2.2rem;
         }
 
         .top-img {
@@ -41,6 +42,13 @@
             .top-img {
                 margin-top: 10px;
                 width: 90%;
+            }
+        }
+
+        @media @tablet {
+            .top-img {
+                width: 100%;
+                margin-right: 10px;
             }
         }
         
@@ -109,7 +117,16 @@
             .feature-content {
                 width: 90%;
             }
-        }   
+        }    
+
+        @media @tablet {
+
+            .feature-content {
+                margin-left: 10px;
+                width: 40%;
+            }
+        }
+          
     }
 
     .features-reverse {
@@ -145,7 +162,14 @@
             .feature-content-reverse {
                 width: 90%;
             }
-        }        
+        }
+        
+        @media @tablet {
+            
+            .feature-content-reverse {
+                width: 40%;
+            }
+        }
     }
 
     .sign-up-btn {

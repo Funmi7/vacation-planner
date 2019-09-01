@@ -135,7 +135,6 @@ html {
 html,
 body {
   font-family: 'Quattrocento Sans', sans-serif;
-  color: #5E6164;
   background-color: #fbfdff;
 }
 h1,
@@ -229,6 +228,15 @@ label {
     padding: 1rem;
   }
 }
+@media (max-width: 800px) {
+  .navigation {
+    flex-direction: column;
+    justify-content: none;
+  }
+  .navigation .logo {
+    margin-bottom: 10px;
+  }
+}
 .contact-header {
   background-image: url(/img/contact-background.jpg);
   top: 0;
@@ -286,6 +294,14 @@ label {
     padding-bottom: 5px;
   }
 }
+@media (max-width: 800px) {
+  .contact-header .contact-nav {
+    flex-direction: column;
+  }
+  .contact-header .contact-nav .logo {
+    margin-bottom: 10px;
+  }
+}
 footer {
   width: 100%;
   margin: 0 auto;
@@ -328,6 +344,7 @@ footer .icons a {
 footer p {
   color: grey;
   text-align: center;
+  font-size: 1.2rem;
 }
 @media (max-width: 500px) {
   footer .footer-content {
@@ -361,6 +378,7 @@ footer p {
   width: 50%;
   text-align: center;
   margin-top: 20px;
+  font-size: 2.2rem;
 }
 .home .main-heading .top-img {
   width: 50%;
@@ -382,6 +400,12 @@ footer p {
   .home .main-heading .top-img {
     margin-top: 10px;
     width: 90%;
+  }
+}
+@media (max-width: 800px) {
+  .home .main-heading .top-img {
+    width: 100%;
+    margin-right: 10px;
   }
 }
 .home .intro-content {
@@ -442,6 +466,12 @@ footer p {
     width: 90%;
   }
 }
+@media (max-width: 800px) {
+  .home .features .feature-content {
+    margin-left: 10px;
+    width: 40%;
+  }
+}
 .home .features-reverse {
   display: flex;
   flex-wrap: wrap;
@@ -470,6 +500,11 @@ footer p {
   }
   .home .features-reverse .feature-content-reverse {
     width: 90%;
+  }
+}
+@media (max-width: 800px) {
+  .home .features-reverse .feature-content-reverse {
+    width: 40%;
   }
 }
 .home .sign-up-btn {

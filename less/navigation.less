@@ -12,7 +12,6 @@
     // position: fixed;
     // top: 0px;
 
-
     .logo {
         font-family: 'Courgette', cursive;
         color: white;
@@ -71,7 +70,19 @@
             padding: 1rem;
         }
     }
+        
+    @media @tablet {
+        flex-direction: column;
+        justify-content: none;
+
+        .logo {
+            margin-bottom: 10px;
+        }
+    }
+    
 }
+
+
 
 // Contact us navigation
 
@@ -145,7 +156,6 @@
     }
 
     @media @mobile  {
-        // background-image: url(/img/contact-background2-mobile.jpg);
         .contact-nav {
             padding-top: 10px;
             flex-direction: column;
@@ -153,6 +163,17 @@
             padding-right: 5px;
             padding-bottom: 5px;
         }
+    }
+
+    @media @tablet {
+        .contact-nav {
+            flex-direction: column;
+
+            .logo {
+                margin-bottom: 10px;
+            }
+        }
+    
     }
 }
 

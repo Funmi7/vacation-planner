@@ -1,0 +1,14 @@
+{
+  "name": "vacation-planner",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "live-server",
+    "less": "less-watch-compiler less css index.less"
+  },
+  "dependencies": {
+    "less": "^3.10.3",
+    "less-watch-compiler": "^1.13.0",
+    "live-server": "^1.2.1"
+  }
+}

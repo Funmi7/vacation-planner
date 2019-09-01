@@ -5,9 +5,13 @@
     align-items: center;
     padding-top: 40px;
     padding-bottom: 20px;
+    margin-bottom: 40px;
     justify-content: space-around;
     margin-bottom: 20px;
     background-color: rgb(0, 0, 0);
+    // position: fixed;
+    // top: 0px;
+
 
     .logo {
         font-family: 'Courgette', cursive;
@@ -16,7 +20,7 @@
     }
 
     a {
-        padding-left: 20px;
+        padding-left: 2rem;
         text-decoration: none;
         font-size: 1.6rem;
         color: white;
@@ -28,8 +32,7 @@
     } 
     
     .sign-up {
-        padding: 10px;
-        // border: 0.5px solid #107AC5;
+        padding: 1rem;
         background-color: white;
         color: black;
         margin-left: 20px;
@@ -50,6 +53,108 @@
         .logo {
             margin-bottom: 20px;
         }
+
+        .nav-buttons {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+
+        a {
+            padding: 1rem;
+            border-top: 1px solid darkgray;
+            text-align: center;
+        }
+
+        .sign-up {
+            margin-left:0px;
+            padding: 1rem;
+        }
     }
 }
+
+// Contact us navigation
+
+.contact-header {
+    background-image: url(/img/contact-background.jpg);
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    .contact-nav {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 0px;
+        justify-content: space-around;
+        margin-bottom: 20px;
+
+        .logo {
+            font-family: 'Courgette', cursive;
+            color: white;
+            font-size: 1.6rem;
+        }
+    
+        a {
+            padding-left: 2rem;
+            text-decoration: none;
+            font-size: 1.6rem;
+            color: white;
+    
+            &:hover {
+                color: #007bff;
+    
+            }
+        } 
+        
+        // .sign-up {
+        //     padding: 10px;
+        //     background-color: white;
+        //     color: black;
+        //     margin-left: 20px;
+        //     text-align: centre;
+        //     border-radius: 5px;
+    
+        //     &:hover {
+        //         color: white;
+        //         background-color: #007bff;
+        //     }
+        // }
+    }
+
+    .header-content {
+       margin-top:20px;
+        margin-bottom: 40px;
+
+        h2, p {
+            color: white;
+            text-align: center;
+        }
+
+        p {
+            margin-top: 40px;
+            font-size: 2.8rem;
+        }
+    }
+
+    @media @mobile  {
+        // background-image: url(/img/contact-background2-mobile.jpg);
+        .contact-nav {
+            padding-top: 10px;
+            flex-direction: column;
+            justify-content: none;
+            padding-right: 5px;
+            padding-bottom: 5px;
+        }
+    }
+}
+
+
 

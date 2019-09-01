@@ -75,61 +75,6 @@
             margin-left: 10px;
         }
     }
-
-    // .top-content {
-
-    //     h3 {
-    //         margin-top: 20px;
-    //     }
-    //     .content {
-    //         display: flex;
-    //         flex-wrap: wrap;
-    //         width: 100%;
-    //         margin-top: 20px;
-         
-    //         .right-text {
-    //             margin-left: 1rem;
-    //         }
-
-    //         .beach {
-    //             text-align: center;
-    //             padding-top: 140px;
-    //             width: 47%;
-    //             height: 300px; 
-    //             border-radius: 10px;
-    //             background-image: url(/img/beach.jpg);
-    //         }
-
-    //         .abroad {
-    //             text-align: center;
-    //             padding-top: 140px;
-    //             width: 47%;
-    //             height: 300px;
-    //             margin-left: 60px;
-    //             border-radius: 10px;
-    //             background-image: url(/img/abroad-1.jpg);
-    //         }
-
-    //         .resort {
-    //             text-align: center;
-    //             padding-top: 140px;
-    //             width: 47%;
-    //             height: 300px;
-    //             border-radius: 10px;
-    //             background-image: url(/img/resort.jpg);
-    //         }
-
-    //         .camping {
-    //             text-align: center;
-    //             padding-top: 140px;
-    //             width: 47%;
-    //             height: 300px;
-    //             margin-left: 60px;
-    //             border-radius: 10px;
-    //             background-image: url(/img/camping-1.jpg);
-    //         }
-    //     }
-    // }
     
     .features {
         display: flex;
@@ -214,6 +159,7 @@
         text-align: center;
 
         a {
+            text-decoration: none;
             color: white;
         }
 
@@ -229,5 +175,75 @@
         a {
            font-size: 1.4rem; 
         }
+    }
+}
+
+//contact form page
+
+.form-container {
+    margin: 0 auto;
+    width: 100%;
+
+    .name-section {
+        margin-top: 40px;
+        margin-left: 10px;
+        
+        label {
+            font-size: 2.3rem;
+            color: #007bff;
+        }
+        
+        .your-name-input {
+            margin-top: 15px;
+        }
+        
+        input {
+            width: 35%;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .last-name {
+            margin-left: 20px;
+        }
+    }
+
+    .input-section {
+        margin-top: 30px;
+        margin-left: 10px;
+
+        label {
+            font-size: 2.3rem;
+            color: #007bff;
+        }
+        
+        .user-input {
+            margin-top: 15px;
+        }
+
+        input {
+            width: 72.5%;
+            padding: 20px;
+            border-radius: 5px;
+            color: #007bff;
+        }
+
+        textarea {
+            width: 72.5%;
+            padding: 20px;
+            border-radius: 5px;
+        }
+    }
+
+    button {
+        margin-left: 10px;
+        margin-top: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width: 15%;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        background-color: #007bff;
+        color: white;
     }
 }
